@@ -1,23 +1,20 @@
-# NPM Darkmode
+# 🌓 NPM Dark Mode – Chrome Extension
 
-A Chrome extension that adds a dark theme to Nginx Proxy Manager.
+A lightweight **Chrome extension** that adds a **Dark Mode toggle** to the **Nginx Proxy Manager (NPM)** dashboard.  
+This extension injects a dark theme directly into the web interface and lets you control it through a popup.
 
-## Installation
+---
 
-1. Clone this repository.
-2. Open Chrome and go to `chrome://extensions`.
-3. Enable "Developer mode" in the top right corner.
-4. Click on "Load unpacked" and select the directory where you cloned the repository.
+## ✨ Features
+- 🖤 One-click **Dark Mode** for Nginx Proxy Manager web UI  
+- 🧭 Adds a **Dark Mode button** to the top navbar inside NPM  
+- ⚙️ Includes a popup toggle for quick switching  
+- 💾 Remembers your last theme (dark/light) with `chrome.storage`  
+- 🚀 Lightweight — no external dependencies  
 
-## Usage
+---
 
-Once the extension is loaded, you can toggle the dark theme in two ways:
-
-1.  **Header Switch:** A toggle switch is added to the header of your Nginx Proxy Manager instance, to the left of the "Sign out" button.
-2.  **Extension Popup:** Click the extension icon in the Chrome toolbar to open a popup with a toggle button.
-
-## Contributing
-
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-
+## 📦 Installation (Manual)
+1. Clone or download this repository:
+   ```bash
+   git clone https://github.com/smtechlabteam/Npm-DarkMode.git
