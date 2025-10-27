@@ -1,0 +1,571 @@
+/* ============================================
+   NGINX PROXY MANAGER - DARK MODE THEME
+   ============================================ */
+
+/* Ana Arkaplan ve Metin Renkleri */
+
+/* ============================================
+   THEME TOGGLE IN DROPDOWN
+   ============================================ */
+.dark-mode .dropdown-item .theme-switch .slider {
+  background-color: #4a5568;
+}
+
+.dark-mode .dropdown-item .theme-switch input:checked + .slider {
+  background-color: #3182ce;
+}
+
+.dark-mode .dropdown-item .fe-moon {
+  color: #63b3ed !important;
+}
+
+/* Dropdown item hover için özel stil */
+.dark-mode .dropdown-item:has(.theme-switch):hover {
+  background-color: #2d3748 !important;
+}
+
+.dropdown-item .theme-switch {
+  margin: 0 !important;
+}
+
+
+body.dark-mode {
+  background-color: #0f1419 !important;
+  color: #e4e6eb !important;
+}
+
+/* Ana Konteynerler */
+.dark-mode .page-main,
+.dark-mode .app-main,
+.dark-mode .main-content {
+  background-color: #0f1419 !important;
+  color: #e4e6eb !important;
+}
+
+/* ============================================
+   HEADER & NAVBAR
+   ============================================ */
+.dark-mode .header,
+.dark-mode .navbar-light,
+.dark-mode #header {
+  background-color: #1a1f2e !important;
+  border-bottom: 1px solid #2d3748 !important;
+}
+
+.dark-mode .navbar-brand {
+  color: #e4e6eb !important;
+}
+
+.dark-mode .navbar-toggler {
+  border-color: #2d3748 !important;
+}
+
+.dark-mode .navbar-toggler-icon {
+  filter: invert(1);
+}
+
+/* ============================================
+   NAVIGATION & MENU
+   ============================================ */
+.dark-mode #menu {
+  background-color: #1a1f2e !important;
+  border-bottom: 1px solid #2d3748 !important;
+}
+
+.dark-mode .nav-tabs {
+  border-bottom: 1px solid #2d3748 !important;
+}
+
+.dark-mode .nav-link {
+  color: #a0aec0 !important;
+  transition: all 0.3s ease;
+}
+
+.dark-mode .nav-link:hover {
+  color: #63b3ed !important;
+  background-color: rgba(99, 179, 237, 0.1) !important;
+}
+
+.dark-mode .nav-link.active {
+  background-color: #2d3748 !important;
+  color: #63b3ed !important;
+  border-color: #2d3748 #2d3748 transparent !important;
+}
+
+/* ============================================
+   DROPDOWN MENUS
+   ============================================ */
+.dark-mode .dropdown-menu {
+  background-color: #1a1f2e !important;
+  border: 1px solid #2d3748 !important;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.dark-mode .dropdown-item {
+  color: #e4e6eb !important;
+  transition: all 0.2s ease;
+}
+
+.dark-mode .dropdown-item:hover,
+.dark-mode .dropdown-item:focus {
+  background-color: #2d3748 !important;
+  color: #63b3ed !important;
+}
+
+.dark-mode .dropdown-header {
+  color: #a0aec0 !important;
+  background-color: #141824 !important;
+}
+
+.dark-mode .dropdown-divider {
+  border-top: 1px solid #2d3748 !important;
+}
+
+/* ============================================
+   CARDS
+   ============================================ */
+.dark-mode .card {
+  background-color: #1a1f2e !important;
+  border: 1px solid #2d3748 !important;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.dark-mode .card-header {
+  background-color: #141824 !important;
+  border-bottom: 1px solid #2d3748 !important;
+  color: #e4e6eb !important;
+}
+
+.dark-mode .card-title {
+  color: #e4e6eb !important;
+}
+
+.dark-mode .card-body {
+  background-color: #1a1f2e !important;
+  color: #e4e6eb !important;
+}
+
+.dark-mode .card-status.bg-success {
+  background-color: #48bb78 !important;
+}
+
+/* ============================================
+   TABLES
+   ============================================ */
+.dark-mode .table {
+  background-color: #1a1f2e !important;
+  color: #e4e6eb !important;
+}
+
+.dark-mode .table thead th {
+  background-color: #141824 !important;
+  color: #a0aec0 !important;
+  border-color: #2d3748 !important;
+  font-weight: 600;
+}
+
+.dark-mode .table tbody tr {
+  border-color: #2d3748 !important;
+  transition: background-color 0.2s ease;
+}
+
+.dark-mode .table tbody tr:hover {
+  background-color: #141824 !important;
+}
+
+.dark-mode .table td {
+  background-color: transparent !important;
+  color: #e4e6eb !important;
+  border-color: #2d3748 !important;
+}
+
+.dark-mode .table-hover tbody tr:hover {
+  background-color: #141824 !important;
+}
+
+/* ============================================
+   FORM ELEMENTS
+   ============================================ */
+.dark-mode .form-control,
+.dark-mode .form-select,
+.dark-mode input[type="text"],
+.dark-mode input[type="password"],
+.dark-mode input[type="email"],
+.dark-mode textarea,
+.dark-mode select {
+  background-color: #141824 !important;
+  color: #e4e6eb !important;
+  border: 1px solid #2d3748 !important;
+  transition: all 0.3s ease;
+}
+
+.dark-mode .form-control:focus,
+.dark-mode .form-select:focus {
+  background-color: #1a1f2e !important;
+  color: #e4e6eb !important;
+  border-color: #63b3ed !important;
+  box-shadow: 0 0 0 3px rgba(99, 179, 237, 0.15) !important;
+}
+
+.dark-mode .form-control::placeholder {
+  color: #4a5568 !important;
+}
+
+.dark-mode .input-icon-addon {
+  color: #a0aec0 !important;
+}
+
+/* ============================================
+   BUTTONS
+   ============================================ */
+.dark-mode .btn-primary {
+  background-color: #3182ce !important;
+  border-color: #3182ce !important;
+  color: #fff !important;
+}
+
+.dark-mode .btn-primary:hover {
+  background-color: #2c5282 !important;
+  border-color: #2c5282 !important;
+}
+
+.dark-mode .btn-secondary {
+  background-color: #4a5568 !important;
+  border-color: #4a5568 !important;
+  color: #fff !important;
+}
+
+.dark-mode .btn-secondary:hover {
+  background-color: #2d3748 !important;
+  border-color: #2d3748 !important;
+}
+
+.dark-mode .btn-success {
+  background-color: #38a169 !important;
+  border-color: #38a169 !important;
+}
+
+.dark-mode .btn-success:hover {
+  background-color: #2f855a !important;
+  border-color: #2f855a !important;
+}
+
+.dark-mode .btn-outline-success {
+  color: #48bb78 !important;
+  border-color: #48bb78 !important;
+  background-color: transparent !important;
+}
+
+.dark-mode .btn-outline-success:hover {
+  background-color: #48bb78 !important;
+  color: #fff !important;
+}
+
+.dark-mode .btn-outline-secondary {
+  color: #a0aec0 !important;
+  border-color: #4a5568 !important;
+  background-color: transparent !important;
+}
+
+.dark-mode .btn-outline-secondary:hover {
+  background-color: #4a5568 !important;
+  color: #fff !important;
+}
+
+/* ============================================
+   TAGS & BADGES
+   ============================================ */
+.dark-mode .tag {
+  background-color: #2d3748 !important;
+  color: #e4e6eb !important;
+  border: 1px solid #4a5568 !important;
+}
+
+.dark-mode .tag.hover-green:hover {
+  background-color: #2f855a !important;
+  border-color: #38a169 !important;
+}
+
+.dark-mode .host-link {
+  transition: all 0.2s ease;
+}
+
+/* ============================================
+   STATUS & ICONS
+   ============================================ */
+.dark-mode .status-icon.bg-success {
+  background-color: #48bb78 !important;
+}
+
+.dark-mode .avatar-status.bg-green {
+  background-color: #48bb78 !important;
+}
+
+.dark-mode .text-muted {
+  color: #718096 !important;
+}
+
+.dark-mode .small.text-muted {
+  color: #4a5568 !important;
+}
+
+/* ============================================
+   LINKS
+   ============================================ */
+.dark-mode a {
+  color: #63b3ed !important;
+  transition: color 0.2s ease;
+}
+
+.dark-mode a:hover {
+  color: #90cdf4 !important;
+}
+
+.dark-mode .text-default {
+  color: #e4e6eb !important;
+}
+
+/* ============================================
+   AVATAR
+   ============================================ */
+.dark-mode .avatar {
+  border: 2px solid #2d3748 !important;
+}
+
+/* ============================================
+   LOADER & DIMMER
+   ============================================ */
+.dark-mode .dimmer {
+  background-color: rgba(15, 20, 25, 0.8) !important;
+}
+
+.dark-mode .loader {
+  border-color: #2d3748 !important;
+  border-top-color: #63b3ed !important;
+}
+
+/* ============================================
+   MODAL
+   ============================================ */
+.dark-mode .modal-content {
+  background-color: #1a1f2e !important;
+  border: 1px solid #2d3748 !important;
+  color: #e4e6eb !important;
+}
+
+.dark-mode .modal-header {
+  background-color: #141824 !important;
+  border-bottom: 1px solid #2d3748 !important;
+}
+
+.dark-mode .modal-footer {
+  background-color: #141824 !important;
+  border-top: 1px solid #2d3748 !important;
+}
+
+.dark-mode .close {
+  color: #e4e6eb !important;
+  text-shadow: none !important;
+}
+
+/* ============================================
+   SCROLLBAR (Chrome/Safari)
+   ============================================ */
+.dark-mode ::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+}
+
+.dark-mode ::-webkit-scrollbar-track {
+  background: #141824;
+}
+
+.dark-mode ::-webkit-scrollbar-thumb {
+  background: #2d3748;
+  border-radius: 6px;
+}
+
+.dark-mode ::-webkit-scrollbar-thumb:hover {
+  background: #4a5568;
+}
+
+/* ============================================
+   THEME TOGGLE SWITCH
+   ============================================ */
+.theme-switch {
+  display: inline-block;
+  height: 26px;
+  position: relative;
+  width: 52px;
+  margin-left: 15px;
+}
+
+.theme-switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #cbd5e0;
+  transition: 0.4s;
+  border-radius: 26px;
+}
+
+.slider:before {
+  position: absolute;
+  content: "☀️";
+  height: 20px;
+  width: 20px;
+  left: 3px;
+  bottom: 3px;
+  background-color: white;
+  transition: 0.4s;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+}
+
+input:checked + .slider {
+  background-color: #3182ce;
+}
+
+input:checked + .slider:before {
+  transform: translateX(26px);
+  content: "🌙";
+}
+
+/* ============================================
+   ALERT & NOTIFICATIONS
+   ============================================ */
+.dark-mode .alert {
+  background-color: #1a1f2e !important;
+  border-color: #2d3748 !important;
+  color: #e4e6eb !important;
+}
+
+.dark-mode .alert-warning {
+  background-color: #744210 !important;
+  border-color: #975a16 !important;
+  color: #fbd38d !important;
+}
+
+/* ============================================
+   MONOSPACE TEXT (Destination URLs)
+   ============================================ */
+.dark-mode .text-monospace {
+  color: #68d391 !important;
+  background-color: #141824 !important;
+  padding: 2px 6px;
+  border-radius: 3px;
+}
+
+/* ============================================
+   SEARCH FORM
+   ============================================ */
+.dark-mode .search-form .input-icon {
+  position: relative;
+}
+
+.dark-mode .search-form .form-control {
+  padding-left: 35px;
+}
+
+/* ============================================
+   MISC
+   ============================================ */
+.dark-mode .border-0 {
+  border-color: #2d3748 !important;
+}
+
+.dark-mode hr {
+  border-color: #2d3748 !important;
+}
+
+.dark-mode .page-main {
+  min-height: 100vh;
+}
+/* ============================================
+   FOOTER - ENHANCED
+   ============================================ */
+.dark-mode .footer {
+  background: linear-gradient(180deg, #1a1f2e 0%, #141824 100%) !important;
+  border-top: 1px solid #2d3748 !important;
+  color: #e4e6eb !important;
+  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.dark-mode .footer a {
+  color: #63b3ed !important;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  position: relative;
+}
+
+.dark-mode .footer a:hover {
+  color: #90cdf4 !important;
+}
+
+/* Link altı hover efekti */
+.dark-mode .footer a::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 1px;
+  bottom: -2px;
+  left: 0;
+  background-color: #63b3ed;
+  transition: width 0.3s ease;
+}
+
+.dark-mode .footer a:hover::after {
+  width: 100%;
+}
+
+/* Nokta ayırıcılar */
+.dark-mode .list-inline-dots > li:not(:last-child)::after {
+  color: #4a5568 !important;
+}
+
+/* Version badge */
+.dark-mode .footer .col-12 {
+  color: #a0aec0 !important;
+}
+
+/* GitHub link'ine özel stil */
+.dark-mode .footer a[href*="github"] {
+  color: #68d391 !important;
+  font-weight: 500;
+}
+
+.dark-mode .footer a[href*="github"]:hover {
+  color: #9ae6b4 !important;
+}
+
+/* jc21.com link'ine özel stil */
+.dark-mode .footer a[href*="jc21.com"] {
+  color: #f6ad55 !important;
+  font-weight: 500;
+}
+
+.dark-mode .footer a[href*="jc21.com"]:hover {
+  color: #fbd38d !important;
+}
+
+/* Tabler link'ine özel stil */
+.dark-mode .footer a[href*="tabler"] {
+  color: #fc8181 !important;
+  font-weight: 500;
+}
+
+.dark-mode .footer a[href*="tabler"]:hover {
+  color: #feb2b2 !important;
+}
