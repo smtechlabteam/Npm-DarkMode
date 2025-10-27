@@ -1,0 +1,23 @@
+# Node modules (if using frontend customization)
+node_modules/
+dist/
+build/
+
+# Logs
+logs/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment and secrets
+.env
+.env.local
+.env.*.local
+
+# Docker related
+docker-compose.override.yml
+.env.docker
+*.bak
+*.tmp
